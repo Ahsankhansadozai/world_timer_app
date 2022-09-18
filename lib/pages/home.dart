@@ -24,9 +24,9 @@ class _HomeState extends State<Home> {
       backgroundColor: bgColor,
       body: SafeArea(
           child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('assets/${bgImage}'), fit: BoxFit.fill)),
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets/${bgImage}'), fit: BoxFit.fill)),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(0.0, 120.0, 0.0, 0.0),
           child: Column(
